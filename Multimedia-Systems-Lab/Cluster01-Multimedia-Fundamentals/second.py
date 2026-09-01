@@ -1,10 +1,6 @@
 import cv2
 import matplotlib.pyplot as plt
 img = cv2.imread(r"D:\IC2K2224-MS-Charu\Multimedia-Systems-Lab\datasets\flower.jpg")
-
-
-
-
 # Handle case where image path is invalid or file doesn't exist
 if img is None:
     raise FileNotFoundError("Could not read 'sample.jpg'. Ensure the path is correct.")
