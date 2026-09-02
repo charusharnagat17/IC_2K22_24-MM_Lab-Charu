@@ -1,3 +1,4 @@
+# This is Charu's Code
 """
 Video Metadata Analyzer
 -----------------------
@@ -274,3 +275,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# This is Charu's Code

@@ -1,3 +1,4 @@
+# This is Charu's Code
 """
 File Utilities Module
 ---------------------
@@ -99,3 +100,4 @@ def get_file_info(file_path):
         "extension": ext,
         "media_type": file_type
     }
+# This is Charu's Code

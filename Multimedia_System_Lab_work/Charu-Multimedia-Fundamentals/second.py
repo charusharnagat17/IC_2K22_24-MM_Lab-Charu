@@ -1,3 +1,4 @@
+# This is Charu's Code
 import cv2
 import matplotlib.pyplot as plt
 img = cv2.imread(r"D:\IC2K2224-MS-Charu\Multimedia-Systems-Lab\datasets\flower.jpg")
@@ -29,3 +30,4 @@ plt.axis('off')
 
 plt.tight_layout()
 plt.show()
+# This is Charu's Code

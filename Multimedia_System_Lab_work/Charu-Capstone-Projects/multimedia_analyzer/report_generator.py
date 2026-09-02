@@ -1,3 +1,4 @@
+# This is Charu's Code
 """
 Report Generator Module
 -----------------------
@@ -150,3 +151,4 @@ def save_json_report(media_type, data, output_path=None):
     except Exception as e:
         print(f"[-] Failed to save JSON report: {e}")
         return None
+# This is Charu's Code

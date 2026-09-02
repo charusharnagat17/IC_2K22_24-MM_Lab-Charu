@@ -1,3 +1,4 @@
+# This is Charu's Code
 """
 Image Analyzer Module
 ---------------------
@@ -104,3 +105,4 @@ def analyze_image(image_path):
     }
 
     return report_data
+# This is Charu's Code

@@ -1,3 +1,4 @@
+# This is Charu's Code
 import numpy as np
 import matplotlib.pyplot as plt
 f = 5
@@ -22,3 +23,4 @@ for fs in [100, 20, 10, 5]:
     plt.legend()
     plt.tight_layout()
     plt.show()
+# This is Charu's Code

@@ -1,3 +1,4 @@
+# This is Charu's Code
 import os
 import cv2
 from PIL import Image, ExifTags
@@ -82,3 +83,4 @@ else:
     print(f"{'Camera':<16}: {camera}")
     print(f"{'Date Taken':<16}: {date_taken}")
     print(f"{'Orientation':<16}: {orientation}")
+# This is Charu's Code

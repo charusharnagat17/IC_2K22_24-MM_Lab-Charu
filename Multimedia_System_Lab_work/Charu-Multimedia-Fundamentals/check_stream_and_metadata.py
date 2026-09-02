@@ -1,3 +1,4 @@
+# This is Charu's Code
 """
 Media Stream Checker & Metadata Extractor
 -----------------------------------------
@@ -179,3 +180,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# This is Charu's Code
