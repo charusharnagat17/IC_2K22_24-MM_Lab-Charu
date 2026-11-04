@@ -74,7 +74,7 @@ class VoiceConverterGUI:
     def _create_widgets(self):
         # Header
         header_frame = ttk.Frame(self.root)
-        header_frame.pack(fill="x", px=20, py=15)
+        header_frame.pack(fill="x", padx=20, pady=15)
 
         title_lbl = tk.Label(
             header_frame,
@@ -96,7 +96,7 @@ class VoiceConverterGUI:
 
         # Status & Level Meter Frame
         status_frame = ttk.LabelFrame(self.root, text=" Live Status ", padding=15)
-        status_frame.pack(fill="x", px=20, py=10)
+        status_frame.pack(fill="x", padx=20, pady=10)
 
         self.status_box = tk.Label(
             status_frame,
@@ -120,7 +120,7 @@ class VoiceConverterGUI:
 
         # Voice Settings Frame
         voice_frame = ttk.LabelFrame(self.root, text=" Target Voice & Parameters ", padding=15)
-        voice_frame.pack(fill="x", px=20, py=10)
+        voice_frame.pack(fill="x", padx=20, pady=10)
 
         # Voice Dropdown
         lbl_v = ttk.Label(voice_frame, text="Target Voice:")
@@ -138,7 +138,7 @@ class VoiceConverterGUI:
 
         # Push to Talk Big Button Frame
         action_frame = ttk.Frame(self.root)
-        action_frame.pack(fill="x", px=20, py=15)
+        action_frame.pack(fill="x", padx=20, pady=15)
 
         self.ptt_button = tk.Button(
             action_frame,
@@ -160,7 +160,7 @@ class VoiceConverterGUI:
 
         # Output & Save Bar
         playback_frame = ttk.Frame(self.root)
-        playback_frame.pack(fill="x", px=20, py=5)
+        playback_frame.pack(fill="x", padx=20, pady=5)
 
         self.replay_btn = tk.Button(
             playback_frame,
@@ -194,7 +194,7 @@ class VoiceConverterGUI:
 
         # Log Window Frame
         log_frame = ttk.LabelFrame(self.root, text=" Event Log ", padding=10)
-        log_frame.pack(fill="both", expand=True, px=20, py=10)
+        log_frame.pack(fill="both", expand=True, padx=20, pady=10)
 
         self.log_text = tk.Text(
             log_frame,
